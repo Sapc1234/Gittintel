@@ -17,7 +17,7 @@ public class class4
 		System.out.println("WebLoginHomeLoan");
 	}
 	
-	@Test
+	@Test(groups= {"Smoke"})
 	public void MobileLoginHomeLoan()
 	
 	{
@@ -31,6 +31,10 @@ public class class4
 	{
 		//Appium
 		System.out.println("MobileSigninHomeLoan");
+		System.out.println("MobileSigninHomeLoan2");
+		System.out.println("MobileSigninHomeLoan3");
+		System.out.println("MobileSigninHomeLoan3");
+		System.out.println("MobileSigninHomeLoan4");
 	}
 
 	@Test
