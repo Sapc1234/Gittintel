@@ -38,6 +38,15 @@ public void secondTest(String uname)
 	System.out.println("bye");
 	System.out.println(uname);
 }
+
+@Parameters({"URL"})
+@Test
+public void third(String uname)
+{
+	System.out.println("hi");
+	System.out.println(uname);
+}
+	
 	
 	
 }
