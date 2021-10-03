@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="14" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Loan department" duration-ms="72" started-at="2021-09-15T15:24:34 IST" finished-at="2021-09-15T15:24:34 IST">
+    <groups>
+      <group name="Smoke">
+        <method signature="class1.demo()[pri:0, instance:RepeatTestNg.class1@e320068]" name="demo" class="RepeatTestNg.class1"/>
+        <method signature="class2.Ploan()[pri:0, instance:RepeatTestNg.class2@57e1b0c]" name="Ploan" class="RepeatTestNg.class2"/>
+        <method signature="class4.WebLoginHomeLoan()[pri:0, instance:RepeatTestNg.class4@58c1670b]" name="WebLoginHomeLoan" class="RepeatTestNg.class4"/>
+        <method signature="class3.WebLogincarLoan()[pri:0, instance:RepeatTestNg.class3@5f3a4b84]" name="WebLogincarLoan" class="RepeatTestNg.class3"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Personal Loan" duration-ms="57" started-at="2021-09-15T15:24:34 IST" finished-at="2021-09-15T15:24:34 IST">
+      <class name="RepeatTestNg.class2">
+        <test-method status="PASS" signature="Ploan()[pri:0, instance:RepeatTestNg.class2@57e1b0c]" name="Ploan" duration-ms="1" started-at="2021-09-15T15:24:34 IST" finished-at="2021-09-15T15:24:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ploan -->
+      </class> <!-- RepeatTestNg.class2 -->
+      <class name="RepeatTestNg.class1">
+        <test-method status="PASS" signature="first()[pri:0, instance:RepeatTestNg.class1@e320068]" name="first" is-config="true" duration-ms="0" started-at="2021-09-15T15:24:34 IST" finished-at="2021-09-15T15:24:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- first -->
+        <test-method status="PASS" signature="demo()[pri:0, instance:RepeatTestNg.class1@e320068]" name="demo" duration-ms="7" started-at="2021-09-15T15:24:34 IST" finished-at="2021-09-15T15:24:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method status="PASS" signature="secondTest(java.lang.String)[pri:0, instance:RepeatTestNg.class1@e320068]" name="secondTest" duration-ms="2" started-at="2021-09-15T15:24:34 IST" finished-at="2021-09-15T15:24:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Personalloan.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTest -->
+        <test-method status="PASS" signature="lastexecution()[pri:0, instance:RepeatTestNg.class1@e320068]" name="lastexecution" is-config="true" duration-ms="1" started-at="2021-09-15T15:24:34 IST" finished-at="2021-09-15T15:24:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastexecution -->
+      </class> <!-- RepeatTestNg.class1 -->
+    </test> <!-- Personal Loan -->
+    <test name="Home Loan" duration-ms="56" started-at="2021-09-15T15:24:34 IST" finished-at="2021-09-15T15:24:34 IST">
+      <class name="RepeatTestNg.class4">
+        <test-method status="PASS" signature="LoginApIHomeLoan()[pri:0, instance:RepeatTestNg.class4@58c1670b]" name="LoginApIHomeLoan" duration-ms="8" started-at="2021-09-15T15:24:34 IST" finished-at="2021-09-15T15:24:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginApIHomeLoan -->
+        <test-method status="PASS" signature="WebLoginHomeLoan()[pri:0, instance:RepeatTestNg.class4@58c1670b]" name="WebLoginHomeLoan" duration-ms="3" started-at="2021-09-15T15:24:34 IST" finished-at="2021-09-15T15:24:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginHomeLoan -->
+      </class> <!-- RepeatTestNg.class4 -->
+    </test> <!-- Home Loan -->
+    <test name="Car Loan" duration-ms="72" started-at="2021-09-15T15:24:34 IST" finished-at="2021-09-15T15:24:34 IST">
+      <class name="RepeatTestNg.class3">
+        <test-method status="PASS" signature="bfsuite()[pri:0, instance:RepeatTestNg.class3@5f3a4b84]" name="bfsuite" is-config="true" duration-ms="10" started-at="2021-09-15T15:24:34 IST" finished-at="2021-09-15T15:24:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfsuite -->
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:RepeatTestNg.class3@5f3a4b84]" name="beforeclass" is-config="true" duration-ms="0" started-at="2021-09-15T15:24:34 IST" finished-at="2021-09-15T15:24:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="beforerecovery()[pri:0, instance:RepeatTestNg.class3@5f3a4b84]" name="beforerecovery" is-config="true" duration-ms="0" started-at="2021-09-15T15:24:34 IST" finished-at="2021-09-15T15:24:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforerecovery -->
+        <test-method status="PASS" signature="MobileLogincarLoan(java.lang.String,java.lang.String)[pri:0, instance:RepeatTestNg.class3@5f3a4b84]" name="MobileLogincarLoan" duration-ms="5" started-at="2021-09-15T15:24:34 IST" finished-at="2021-09-15T15:24:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[carloan.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLogincarLoan -->
+        <test-method status="PASS" signature="afterRecovery()[pri:0, instance:RepeatTestNg.class3@5f3a4b84]" name="afterRecovery" is-config="true" duration-ms="1" started-at="2021-09-15T15:24:34 IST" finished-at="2021-09-15T15:24:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterRecovery -->
+        <test-method status="PASS" signature="WebLogincarLoan()[pri:0, instance:RepeatTestNg.class3@5f3a4b84]" name="WebLogincarLoan" duration-ms="4" started-at="2021-09-15T15:24:34 IST" finished-at="2021-09-15T15:24:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLogincarLoan -->
+        <test-method status="PASS" signature="beforerecovery()[pri:0, instance:RepeatTestNg.class3@5f3a4b84]" name="beforerecovery" is-config="true" duration-ms="0" started-at="2021-09-15T15:24:34 IST" finished-at="2021-09-15T15:24:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforerecovery -->
+        <test-method status="PASS" signature="afterRecovery()[pri:0, instance:RepeatTestNg.class3@5f3a4b84]" name="afterRecovery" is-config="true" duration-ms="0" started-at="2021-09-15T15:24:34 IST" finished-at="2021-09-15T15:24:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterRecovery -->
+        <test-method status="PASS" signature="beforerecovery()[pri:0, instance:RepeatTestNg.class3@5f3a4b84]" name="beforerecovery" is-config="true" duration-ms="1" started-at="2021-09-15T15:24:34 IST" finished-at="2021-09-15T15:24:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforerecovery -->
+        <test-method status="PASS" signature="WebLogoutcarLoan(java.lang.String,java.lang.String)[pri:0, instance:RepeatTestNg.class3@5f3a4b84]" name="WebLogoutcarLoan" duration-ms="2" started-at="2021-09-15T15:24:34 IST" data-provider="getData" finished-at="2021-09-15T15:24:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLogoutcarLoan -->
+        <test-method status="PASS" signature="beforerecovery()[pri:0, instance:RepeatTestNg.class3@5f3a4b84]" name="beforerecovery" is-config="true" duration-ms="1" started-at="2021-09-15T15:24:34 IST" finished-at="2021-09-15T15:24:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforerecovery -->
+        <test-method status="PASS" signature="afterRecovery()[pri:0, instance:RepeatTestNg.class3@5f3a4b84]" name="afterRecovery" is-config="true" duration-ms="0" started-at="2021-09-15T15:24:34 IST" finished-at="2021-09-15T15:24:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterRecovery -->
+        <test-method status="PASS" signature="WebLogoutcarLoan(java.lang.String,java.lang.String)[pri:0, instance:RepeatTestNg.class3@5f3a4b84]" name="WebLogoutcarLoan" duration-ms="0" started-at="2021-09-15T15:24:34 IST" data-provider="getData" finished-at="2021-09-15T15:24:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Secondusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLogoutcarLoan -->
+        <test-method status="PASS" signature="afterRecovery()[pri:0, instance:RepeatTestNg.class3@5f3a4b84]" name="afterRecovery" is-config="true" duration-ms="0" started-at="2021-09-15T15:24:34 IST" finished-at="2021-09-15T15:24:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterRecovery -->
+        <test-method status="PASS" signature="beforerecovery()[pri:0, instance:RepeatTestNg.class3@5f3a4b84]" name="beforerecovery" is-config="true" duration-ms="0" started-at="2021-09-15T15:24:34 IST" finished-at="2021-09-15T15:24:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforerecovery -->
+        <test-method status="PASS" signature="WebLogoutcarLoan(java.lang.String,java.lang.String)[pri:0, instance:RepeatTestNg.class3@5f3a4b84]" name="WebLogoutcarLoan" duration-ms="1" started-at="2021-09-15T15:24:34 IST" data-provider="getData" finished-at="2021-09-15T15:24:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Thirdusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Thirdpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLogoutcarLoan -->
+        <test-method status="PASS" signature="afterRecovery()[pri:0, instance:RepeatTestNg.class3@5f3a4b84]" name="afterRecovery" is-config="true" duration-ms="0" started-at="2021-09-15T15:24:34 IST" finished-at="2021-09-15T15:24:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterRecovery -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:RepeatTestNg.class3@5f3a4b84]" name="afterclass" is-config="true" duration-ms="0" started-at="2021-09-15T15:24:34 IST" finished-at="2021-09-15T15:24:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method status="PASS" signature="afsuite()[pri:0, instance:RepeatTestNg.class3@5f3a4b84]" name="afsuite" is-config="true" duration-ms="0" started-at="2021-09-15T15:24:34 IST" finished-at="2021-09-15T15:24:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afsuite -->
+      </class> <!-- RepeatTestNg.class3 -->
+    </test> <!-- Car Loan -->
+  </suite> <!-- Loan department -->
+</testng-results>

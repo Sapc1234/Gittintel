@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Loan department]">
+  <test thread-count="5" name="Personal Loan(failed)">
+    <classes>
+      <class name="RepeatTestNg.class3">
+        <methods>
+          <include name="bfsuite"/>
+          <include name="beforerecovery"/>
+          <include name="afterRecovery"/>
+          <include name="beforeclass"/>
+          <include name="afsuite"/>
+          <include name="MobileLogincarLoan"/>
+          <include name="ApIcarLoan"/>
+          <include name="afterclass"/>
+          <include name="WebLogincarLoan"/>
+        </methods>
+      </class> <!-- RepeatTestNg.class3 -->
+      <class name="RepeatTestNg.class1">
+        <methods>
+          <include name="first"/>
+          <include name="lastexecution"/>
+          <include name="secondTest"/>
+        </methods>
+      </class> <!-- RepeatTestNg.class1 -->
+    </classes>
+  </test> <!-- Personal Loan(failed) -->
+</suite> <!-- Failed suite [Loan department] -->
