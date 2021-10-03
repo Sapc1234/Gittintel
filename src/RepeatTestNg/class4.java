@@ -51,5 +51,13 @@ public class class4
 		//Rest ApI automation
 		System.out.println("LoginApIHomeLoan");
 	}
+	
+	@Test
+	public void WebLogincropLoan()
+	
+	{
+	
+		System.out.println("WebLogincropLoan");
+	}
 
 }

@@ -13,4 +13,12 @@ public class class2 {
 		System.out.println("ploan3");
 	}
 
+	@Test
+	public void Sloan()
+	
+	{
+		System.out.println("sloan");
+		System.out.println("sloan3");
+	}
+
 }
