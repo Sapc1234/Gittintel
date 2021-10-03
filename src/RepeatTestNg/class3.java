@@ -18,6 +18,8 @@ public class class3
 
 	{
 		System.out.println("Before Executing all the methods in class");
+		System.out.println("Before executing all the methods in class1 ");
+		
 	}
 
 	@AfterClass
@@ -25,6 +27,7 @@ public class class3
 
 	{
 		System.out.println("After Executing all the methods in class");
+		System.out.println("After Executing all the methods in class1");
 	}
 
 	@BeforeSuite // it will execute Before execute any test in the xml file
@@ -32,6 +35,7 @@ public class class3
 
 	{
 		System.out.println("I am at Number One");
+		System.out.println("before executing any test in the xml file");
 	}
 
 	@AfterSuite // It will only execute once all the tests completed and all the test folders
@@ -39,6 +43,7 @@ public class class3
 
 	{
 		System.out.println("I am in the Last Number");
+		System.out.println("it will execute once all the tests completed and all the folders");
 	}
 
 	@BeforeMethod
@@ -47,6 +52,7 @@ public class class3
 
 	{
 		System.out.println("I Will Execute Before Recovery");
+		System.out.println("it will execute before each and every method");
 	}
 
 	@AfterMethod
@@ -55,6 +61,7 @@ public class class3
 
 	{
 		System.out.println("I will execute after Recovery");
+		System.out.println("it will execute after each and every method");
 	}
 
 	@Test(groups = { "Smoke" })
